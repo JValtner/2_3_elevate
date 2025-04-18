@@ -6,6 +6,7 @@ $font_1:Arial, sans-serif;
 $none: none;
 $flex: flex;
 $space: space-between;
+$space_equal: space-evenly;
 /* General Styles */
 body {
     font-family: $font_1;
@@ -21,7 +22,7 @@ body {
 /* Navbar */
 .navbar {
     display: $flex;
-    justify-content: $space;
+    justify-content:$space_equal;
     align-items: center;
     padding: 15px 30px;
     box-shadow: 0 2px 10px $color_shadow;
@@ -134,4 +135,27 @@ body {
     .card {
         width: 80%;
     }
+    .navbar{
+        justify-content: $space_equal;
+        .nav-links{
+            text-align: center;
+        }
+    }
+    .main{
+        flex-direction: column;
+        .content{
+            text-align: center;
+            a{
+                margin-top: 20px;
+                margin-bottom: 20px;
+            }
+        }
+        img{
+            margin-top: 20px;
+            margin-bottom: 20px;
+            width: 50%;
+        }
+        
+    }
+
 }
