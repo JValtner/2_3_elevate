@@ -2,7 +2,7 @@
 /* Navbar */
 .navbar {
     display: variables.$flex;
-    justify-content: variables.$space_equal;
+    justify-content: variables.$space;
     align-items: center;
     padding: 15px 30px;
     box-shadow: 0 2px 10px variables.$color_shadow;
