@@ -130,7 +130,7 @@ body h2 {
 }
 
 /* Responsive */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 576px) {
   .card-list {
     flex-direction: column;
     align-items: center;
