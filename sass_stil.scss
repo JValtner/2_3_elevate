@@ -1,8 +1,9 @@
 $color_1: #ff7e5f;
 $color_shadow:rgba(0, 0, 0, 0.1);
+$font_1:Arial, sans-serif;
 /* General Styles */
 body {
-    font-family: Arial, sans-serif;
+    font-family: $font_1;
     color: #333;
     margin: 0;
     padding: 0;
